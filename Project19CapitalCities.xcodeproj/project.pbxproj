@@ -13,6 +13,8 @@
 		BAD06C2E1B5BF36400D57B2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD06C2D1B5BF36400D57B2E /* Images.xcassets */; };
 		BAD06C311B5BF36400D57B2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD06C2F1B5BF36400D57B2E /* LaunchScreen.xib */; };
 		BAD06C3D1B5BF36400D57B2E /* Project19CapitalCitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD06C3C1B5BF36400D57B2E /* Project19CapitalCitiesTests.swift */; };
+		BAD06C471B5BF46E00D57B2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD06C461B5BF46E00D57B2E /* MapKit.framework */; };
+		BAD06C491B5BF83600D57B2E /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD06C481B5BF83600D57B2E /* Capital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BAD06C361B5BF36400D57B2E /* Project19CapitalCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project19CapitalCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD06C3B1B5BF36400D57B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAD06C3C1B5BF36400D57B2E /* Project19CapitalCitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project19CapitalCitiesTests.swift; sourceTree = "<group>"; };
+		BAD06C461B5BF46E00D57B2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BAD06C481B5BF83600D57B2E /* Capital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD06C471B5BF46E00D57B2E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		BAD06C181B5BF36400D57B2E = {
 			isa = PBXGroup;
 			children = (
+				BAD06C461B5BF46E00D57B2E /* MapKit.framework */,
 				BAD06C231B5BF36400D57B2E /* Project19CapitalCities */,
 				BAD06C391B5BF36400D57B2E /* Project19CapitalCitiesTests */,
 				BAD06C221B5BF36400D57B2E /* Products */,
@@ -80,6 +86,7 @@
 				BAD06C261B5BF36400D57B2E /* AppDelegate.swift */,
 				BAD06C281B5BF36400D57B2E /* ViewController.swift */,
 				BAD06C2A1B5BF36400D57B2E /* Main.storyboard */,
+				BAD06C481B5BF83600D57B2E /* Capital.swift */,
 				BAD06C2D1B5BF36400D57B2E /* Images.xcassets */,
 				BAD06C2F1B5BF36400D57B2E /* LaunchScreen.xib */,
 				BAD06C241B5BF36400D57B2E /* Supporting Files */,
@@ -161,6 +168,11 @@
 				TargetAttributes = {
 					BAD06C201B5BF36400D57B2E = {
 						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BAD06C351B5BF36400D57B2E = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -214,6 +226,7 @@
 			files = (
 				BAD06C291B5BF36400D57B2E /* ViewController.swift in Sources */,
 				BAD06C271B5BF36400D57B2E /* AppDelegate.swift in Sources */,
+				BAD06C491B5BF83600D57B2E /* Capital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
