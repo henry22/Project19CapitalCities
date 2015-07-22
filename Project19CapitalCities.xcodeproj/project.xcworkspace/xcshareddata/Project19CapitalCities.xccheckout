@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB830424-3F69-4AD6-B588-8B15D9A0924D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Project19CapitalCities</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9E2D3D05A119BBB4DC559CC34929F990B429787A</key>
+		<string>https://github.com/henry22/Project19CapitalCities.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project19CapitalCities.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9E2D3D05A119BBB4DC559CC34929F990B429787A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/henry22/Project19CapitalCities.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9E2D3D05A119BBB4DC559CC34929F990B429787A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E2D3D05A119BBB4DC559CC34929F990B429787A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project19CapitalCities</string>
+		</dict>
+	</array>
+</dict>
+</plist>
